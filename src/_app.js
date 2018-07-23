@@ -9,7 +9,7 @@ const Page = props => (
   <React.Fragment>
     <CSS />
     <ThemeProvider theme={theme}>
-      <Box color='bodytext'>
+      <Box id="pageroot" color='bodytext'>
         {props.children}
       </Box>
     </ThemeProvider>

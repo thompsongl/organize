@@ -1,26 +1,23 @@
-
+const gray = '#d1d5da';
 const theme = {
   breakpoints: [
-    '544px',
-    '768px',
-    '1012px',
-    '1280px'
+    '540px',
+    '740px'
   ],
-  maxWidths: {
-    small: '544px',
-    medium: '768px',
-    large: '1012px',
-    xlarge: '1280px'
-  },
+  maxWidths: [
+    '520px',
+    '740px'
+  ],
   fonts: [
-    '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+    `'Work Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+    `'Belleza', 'serif'`
   ],
   lineHeight: 1.5,
   colors: {
     bodytext: '#24292e',
     black: '#1b1f23',
     white: '#fff',
-    gray: ['#fafbfc', '#f6f8fa', '#e1e4e8', '#d1d5da', '#959da5', '#6a737d', '#586069', '#444d56', '#2f363d', '#24292e'],
+    gray: ['#fafbfc', '#f6f8fa', '#e1e4e8', gray, '#959da5', '#6a737d', '#586069', '#444d56', '#2f363d', '#24292e'],
     blue: ['#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c'],
     green: ['#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620'],
     yellow: ['#fffdef', '#fffbdd', '#fff5b1', '#ffea7f', '#ffdf5d', '#ffd33d', '#f9c513', '#dbab09', '#b08800', '#735c0f'],
@@ -40,7 +37,9 @@ const theme = {
     24,
     32,
     40,
-    48
+    48,
+    64,
+    80
   ],
   fontSizes: [
     12,
@@ -51,6 +50,10 @@ const theme = {
     32,
     40,
     48
+  ],
+  shadows: [
+    '0',
+    `1px 3px 12px ${gray}`
   ]
 }
 

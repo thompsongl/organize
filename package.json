@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "x0 dev src -op 8888",
-    "build": "x0 build src -d . --static"
+    "build": "x0 build src -d ./dist --static"
   },
   "repository": {
     "type": "git",
@@ -22,26 +22,23 @@
     "@compositor/x0": "^6.0.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "file-loader": "^1.1.11",
     "react": "^16.2.0",
     "styled-components": "^3.1.6",
     "styled-system": "^3.0.1"
   },
   "x0": {
-    "title": "React Website Starter",
+    "title": "Joanna Thompson | Professional Organizing",
     "links": [
       {
         "rel": "icon",
         "href": "assets/favicon.png"
-      },
-      {
-        "rel": "apple-touch-icon",
-        "href": "assets/apple-touch-icon.png"
       }
     ],
     "meta": [
       {
         "name": "description",
-        "content": "Simple setup for building sites with React"
+        "content": "Joanna Thompson | Professional Organizing | Omaha, NE"
       }
     ]
   }
