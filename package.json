@@ -34,6 +34,7 @@
         "name": "description",
         "content": "Joanna Thompson | Professional Organizing | Omaha, NE"
       }
-    ]
+    ],
+    "template": "src/html.js"
   }
 }
