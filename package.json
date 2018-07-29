@@ -29,18 +29,11 @@
   },
   "x0": {
     "title": "Joanna Thompson | Professional Organizing",
-    "links": [
-      {
-        "rel": "icon",
-        "href": "assets/favicon.png"
-      }
-    ],
     "meta": [
       {
         "name": "description",
         "content": "Joanna Thompson | Professional Organizing | Omaha, NE"
       }
-    ],
-    "template": "src/html.js"
+    ]
   }
 }

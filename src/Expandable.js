@@ -45,4 +45,8 @@ const Expandable = ({children, title}) => (
     </Box>
 )
 
+Expandable.defaultProps = {
+    title: ''
+}
+
 export default Expandable
