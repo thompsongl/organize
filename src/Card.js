@@ -9,6 +9,8 @@ Card.defaultProps = {
     boxShadow: 1,
     textAlign: 'center',
     w: '250px',
+    mx: 2,
+    my: 2,
     bg: 'white'
 }
 

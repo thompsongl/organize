@@ -4,7 +4,7 @@ const Footer = Box.withComponent('footer')
 
 Footer.defaultProps = {
     textAlign: 'center',
-    py: 3
+    py: 2
 }
 
 export default Footer

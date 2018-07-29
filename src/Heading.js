@@ -9,7 +9,8 @@ Heading.defaultProps = {
   m: 0,
   textAlign: 'center',
   fontFamily: 1,
-  letterSpacing: 1
+  letterSpacing: 1,
+  color: 'black'
 }
 
 Heading.h1 = Heading.withComponent('h1')

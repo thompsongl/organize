@@ -5,7 +5,12 @@ import {
   maxWidth,
   flex,
   color,
-  boxShadow
+  boxShadow,
+  position,
+  display,
+  border,
+  borderColor,
+  borderRadius
 } from 'styled-system'
 
 const Box = styled.div`
@@ -15,6 +20,11 @@ const Box = styled.div`
   ${flex}
   ${color}
   ${boxShadow}
+  ${position}
+  ${display}
+  ${border}
+  ${borderColor}
+  ${borderRadius}
 `
 
 Box.propTypes = {
@@ -23,7 +33,12 @@ Box.propTypes = {
   ...maxWidth.propTypes,
   ...flex.propTypes,
   ...color.propTypes,
-  ...boxShadow.propTypes
+  ...boxShadow.propTypes,
+  ...position.propTypes,
+  ...display.propTypes,
+  ...border.propTypes,
+  ...borderColor.propTypes,
+  ...borderRadius.propTypes
 }
 
 export default Box

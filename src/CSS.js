@@ -23,6 +23,19 @@ CSS.defaultProps = {
       font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       line-height: 1.5;
     }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        list-style: none;
+    }
+    input[type=submit] {
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+    }
   `
 }
 

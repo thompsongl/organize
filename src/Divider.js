@@ -14,7 +14,7 @@ const Divider = styled.hr`
 Divider.displayName = 'Divider'
 
 Divider.defaultProps = {
-    borderColor: 'purple.0',
+    borderColor: 'green.2',
     theme: theme,
     ml: 0,
     mr: 0
