@@ -11,7 +11,8 @@ Card.defaultProps = {
     w: '250px',
     mx: 2,
     my: 2,
-    bg: 'white'
+    bg: 'white',
+    maxWidth: '500px'
 }
 
 export default Card

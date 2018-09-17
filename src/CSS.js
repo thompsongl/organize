@@ -13,13 +13,14 @@ CSS.defaultProps = {
   css: `
     @font-face {
       font-family: "Belleza";
-      src: url("${Belleza}") format("woff2");
+      src: url("/${Belleza}") format("woff2");
     }
     @font-face {
       font-family: "Work Sans";
-      src: url("${WorkSans}") format("woff2");
+      src: url("/${WorkSans}") format("woff2");
     }
     body, #pageroot {
+      margin: 0;
       font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       line-height: 1.5;
     }
