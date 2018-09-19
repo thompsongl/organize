@@ -1,30 +1,30 @@
 {
-  "name": "react-website-starter",
+  "name": "organize",
   "private": true,
   "version": "0.0.1",
-  "description": "React website starter",
+  "description": "Website for Joanna Thompson's Professional Organizing",
   "main": "index.js",
   "scripts": {
     "start": "x0 dev src -op 8888",
-    "build": "x0 build src -d ./dist --static"
+    "build": "x0 build src --static"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broccolini/react-website-starter.git"
+    "url": "git+https://github.com/thompsongl/organize.git"
   },
-  "author": "Diana Mounter",
+  "author": "Greg Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/broccolini/react-website-starter/issues"
+    "url": "https://github.com/thompsongl/organize/issues"
   },
-  "homepage": "https://github.com/broccolini/react-website-starter#readme",
+  "homepage": "https://github.com/thompsongl/organize#readme",
   "dependencies": {
     "@compositor/x0": "^6.0.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "file-loader": "^1.1.11",
     "react": "^16.2.0",
-    "styled-components": "^3.1.6",
+    "styled-components": "^3.2.6",
     "styled-system": "^3.0.1"
   },
   "x0": {
