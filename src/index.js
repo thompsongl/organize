@@ -56,7 +56,7 @@ const FAQS = [
 const PRICES = [
     {
         name: 'In-Person Consulting',
-        cost: '$60',
+        cost: '$70',
         period: 'hour',
         notes: [
             '5 hours recommended for one tidying session'
